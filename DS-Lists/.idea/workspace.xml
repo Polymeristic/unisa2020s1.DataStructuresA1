@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64a63dfc-e63d-4f3e-89ee-aebaed6fdfd3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZKnLeqMvPUiPKyYT06mtVeDkso" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64a63dfc-e63d-4f3e-89ee-aebaed6fdfd3" name="Default Changelist" comment="" />
+      <created>1584596598498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584596598498</updated>
+      <workItem from="1584596625731" duration="7977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584596718591">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584596718591" />
+    <state x="1123" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584596711194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1123" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584596711194" />
+    <state x="662" y="279" key="new project wizard" timestamp="1584610977027">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="279" key="new project wizard/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584610977027" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ds/students/DSList.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
