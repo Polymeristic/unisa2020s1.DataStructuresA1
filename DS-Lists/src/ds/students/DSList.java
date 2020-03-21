@@ -70,6 +70,12 @@ public class DSList implements List, Iterable<Token> {
 		return node.data;
 	}
 
+	/**
+	 * Returns the first index of the specified object, or -1 if the object does not exist
+	 * in the list. 
+	 * @param token
+	 * @return The index of the specified token, or -1 if it is not contained in the list. 
+	 */
 	public int indexOf(Token obj) {
 		Node n = head;
 
