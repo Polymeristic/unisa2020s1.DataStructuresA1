@@ -1,8 +1,9 @@
 package ds.students;
 
+import javax.management.InvalidAttributeValueException;
+
 /**
- * @author simont
- *
+ * @author Oliver Mitchell (mitoj001)
  */
 public class Token {
 
@@ -30,6 +31,27 @@ public class Token {
 		this.operator = other.operator;
 		this.operand = other.operand;
 		this.type = other.type;
+	}
+
+	/**
+	 * Evaluates two operand tokens using this token's operator
+	 * @param a Operand a
+	 * @param b Operand b
+	 * @return Resulting token
+	 */
+	public Token evaluate(Token a, Token b)  {
+		switch (getOperator()) {
+			case "+":
+				return new Token(a.getOperand() + b.getOperand());
+			case "-":
+				return new Token(a.getOperand() - b.getOperand());
+			case "*":
+				return new Token(a.getOperand() * b.getOperand());
+			case "/":
+				return new Token(a.getOperand() / b.getOperand());
+			default:
+				return new Token(0);
+		}
 	}
 	
 	public String getOperator() {

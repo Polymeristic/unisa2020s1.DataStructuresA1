@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1d9a838-2da6-40e4-958f-9e7cda0cf99e" name="Default Changelist" comment="" />
+    <list default="true" id="f1d9a838-2da6-40e4-958f-9e7cda0cf99e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DS-Lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DS-Lists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZLGUbObnIctZoXv2cdjtpZVlPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584610977209</updated>
       <workItem from="1584610978938" duration="9120000" />
+      <workItem from="1584767334075" duration="7000" />
+      <workItem from="1584767379343" duration="646000" />
     </task>
     <servers />
   </component>
@@ -100,6 +109,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="470" key="GridCell.Tab.1.right/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584620430856" />
+    <state x="956" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1584767333332">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="956" y="524" key="com.intellij.ide.util.TipDialog/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584767333332" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1584617806983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

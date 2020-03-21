@@ -1,11 +1,12 @@
-package pack;
+package ds.students;
 
 import java.util.Iterator;
 
 /**
+ * @author Oliver Mitchell (mitoj001)
  * Iterator used for iterating though a linked Node chain
  */
-public class NodeIterator implements Iterator<String> {
+public class NodeIterator implements Iterator<Token> {
     Node current;
 
     /**
@@ -30,8 +31,8 @@ public class NodeIterator implements Iterator<String> {
      * @return the next node
      */
     @Override
-    public String next() {
-        String d = current.data;
+    public Token next() {
+        Token d = current.data;
         current = current.next;
 
         return d;

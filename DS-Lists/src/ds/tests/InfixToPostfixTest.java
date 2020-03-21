@@ -45,6 +45,7 @@ public class InfixToPostfixTest extends DSUnitTesting {
 			{ THelper.listCreator("1 + 2"), THelper.listCreator("1 2 +") },
 			{ THelper.listCreator("2 - 4"), THelper.listCreator("2 4 -") },
 			{ THelper.listCreator("4 * 9"), THelper.listCreator("4 9 *") },
+			{ THelper.listCreator("4 / 9"), THelper.listCreator("4 9 /") },
 			
 			// Multiple operators, single expression
 			{ THelper.listCreator("1 + 2 + 3"), THelper.listCreator("1 2 + 3 +") },
@@ -58,8 +59,10 @@ public class InfixToPostfixTest extends DSUnitTesting {
 			{ THelper.listCreator("7 / 1 + 3 * 2 * 1 / 4 / 3 + 2 * 1"), THelper.listCreator("7 1 / 3 2 * 1 * 4 / 3 / + 2 1 * +") },
 			
 			// Parens. 
-			{ THelper.listCreator("2 / ( 3 + 1 ) * ( 4 * 2 )"), THelper.listCreator("2 3 1 + / 4 2 * *") }
-				
+			{ THelper.listCreator("2 / ( 3 + 1 ) * ( 4 * 2 )"), THelper.listCreator("2 3 1 + / 4 2 * *") },
+			{ THelper.listCreator("7 - ( 2 * 3 + 5 ) * ( 8 - 4 / 2 )"), THelper.listCreator("7 2 3 * 5 + 8 4 2 / - * -") },
+			{ THelper.listCreator("7 + ( 6 * 7 + ( 8 / 7 + 3 ) / 5 + 6 ) / 5 - 1 / 6 * ( 3 + ( 8 + 1 * ( 5 + 7 ) - 3 ) )"), THelper.listCreator("7 6 7 * 8 7 / 3 + 5 / + 6 + 5 / + 1 6 / 3 8 1 5 7 + * + 3 - + * -") }
+
 		});
 	}
 	

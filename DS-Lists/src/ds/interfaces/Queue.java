@@ -8,8 +8,7 @@ import ds.students.Token;
  * 	Reverse Polish Notation calculator. 
  * 
  * @author simont
- * Jan, 2014. 
- * @param  The type of object stored in the Queue. 
+ * Jan, 2014.
  */
 public abstract class Queue {
 
