@@ -67,7 +67,7 @@ public class DSList implements List, Iterable<Token> {
 		Node node = getNode(index);
 		removeNode(node);
 
-		return node.data;
+		return node.getToken();
 	}
 
 	public int indexOf(Token obj) {
@@ -75,7 +75,7 @@ public class DSList implements List, Iterable<Token> {
 
 		// Go through each node and return index of object if equals param
 		for (int i = 0; i < length; i++) {
-			if (n.data.equals(obj))
+			if (n.getToken().equals(obj))
 				return i;
 
 			n = n.next;
@@ -103,7 +103,7 @@ public class DSList implements List, Iterable<Token> {
 
 		// Go through list walking forwards, if data equals token, return that node
 		while (walker != null) {
-			if (walker.data.equals(t))
+			if (walker.getToken().equals(t))
 				return walker;
 
 			walker = walker.next;
@@ -137,7 +137,7 @@ public class DSList implements List, Iterable<Token> {
 	public Token get(int index) {
 		// Get index of node and return null if not found/in range
 		Node n = getNode(index);
-		return (n == null) ? null : n.data;
+		return (n == null) ? null : n.getToken();
 	}
 
 	/**
@@ -207,7 +207,7 @@ public class DSList implements List, Iterable<Token> {
 			throw new NullPointerException("Can't add null value to list");
 
 		Node n = new Node();
-		n.data = obj;
+		n.setToken(obj);
 
 		// Check if head and tail is set, if not, set to object
 		if (head == null ||

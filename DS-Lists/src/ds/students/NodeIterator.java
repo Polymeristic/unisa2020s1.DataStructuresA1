@@ -32,7 +32,7 @@ public class NodeIterator implements Iterator<Token> {
      */
     @Override
     public Token next() {
-        Token d = current.data;
+        Token d = current.getToken();
         current = current.next;
 
         return d;

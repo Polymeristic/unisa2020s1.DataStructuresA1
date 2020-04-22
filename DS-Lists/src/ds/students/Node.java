@@ -1,55 +1,47 @@
 package ds.students;
 
 /**
- * @author Oliver Mitchell (mitoj001)
+ * @author simont
+ *
  */
 public class Node {
 
-	/**
-	 * Next node
-	 */
 	public Node next;
-
-	/**
-	 * Previous node
-	 */
 	public Node prev;
 
-	/**
-	 * Data at this node
-	 */
-	public Token data;
+	private Token t;
 
 	/**
-	 * Create a new node
+	 * Defines an empty node
 	 */
 	public Node() { }
 
 	/**
-	 * Creata a new node with only the data set
-	 * @param data Data of the node
+	 * Defines a new node only with token data
+	 * @param token Token data
 	 */
-	public Node(Token data) {
-		this.data = data;
+	public Node(Token token) {
+		t = token;
 	}
 
-	/**
-	 * Create a new node and setup the initial pointers
-	 * @param next Next node
-	 * @param prev Previous node
-	 * @param token Token data at the node
-	 */
 	public Node(Node next, Node prev, Token token) {
 		this.next = next;
 		this.prev = prev;
-		this.data = token;
+		this.t = token;
 	}
 
 	/**
-	 * If two nodes's data are equal
-	 * @param other Other node
-	 * @return true if they are equal
+	 * Sets this node's token
+	 * @param token Token object
 	 */
+	public void setToken(Token token) {
+		t = token;
+	}
+
+	public Token getToken() {
+		return t;
+	}
+
 	@Override
 	public boolean equals(Object other) {
 		if (this == other)
@@ -59,17 +51,13 @@ public class Node {
 		if (!(other instanceof Node))
 			return false;
 
-		return data.equals(((Node)other).data);
+		return t.equals(((Node)other).getToken());
 	}
 
-	/**
-	 * Gets the hash code for a node
-	 * @return Hash for this node
-	 */
 	@Override
 	public int hashCode() {
-		if ( data == null )
+		if ( t == null )
 			return 0;
-		return data.hashCode();
+		return t.hashCode();
 	}
 }

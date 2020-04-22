@@ -1,15 +1,14 @@
 package ds.students;
 
-import javax.management.InvalidAttributeValueException;
-
 /**
- * @author Oliver Mitchell (mitoj001)
+ * @author simont
+ *
  */
 public class Token {
 
 	public enum Type { OPERATOR, OPERAND, PAREN };
 	public Type type;
-	
+
 	private String operator;
 	private double operand;
 
@@ -17,16 +16,16 @@ public class Token {
 		this.operand = result;
 		this.type = Type.OPERAND;
 	}
-	
+
 	public Token(String op) {
 		this.operator = op;
 		this.type = Type.OPERATOR;
-		
+
 		if ( this.operator.equals("(") || this.operator.equals(")") ) {
 			this.type = Type.PAREN;
 		}
 	}
-	
+
 	public Token(Token other) {
 		this.operator = other.operator;
 		this.operand = other.operand;
@@ -53,7 +52,7 @@ public class Token {
 				return new Token(0);
 		}
 	}
-	
+
 	public String getOperator() {
 		return operator;
 	}
@@ -65,29 +64,29 @@ public class Token {
 			return -1;
 		if ( type != Type.OPERATOR )
 			return 0;
-		
+
 		switch ( operator ) {
-		case "+":
-		case "-":
-			return 0;
-		case "*":
-		case "/":
-			return 2;
-			
+			case "+":
+			case "-":
+				return 0;
+			case "*":
+			case "/":
+				return 2;
+
 		}
-		
+
 		return 0;
 	}
-	
+
 	@Override
 	public boolean equals(Object obj) {
 		if ( obj == null )
 			return false;
 		if ( obj == this )
+			return true;
+		if ( !obj.getClass().equals(Token.class))
 			return false;
-		if ( !obj.getClass().equals(Token.class)) 
-			return false;
-		
+
 		Token t = (Token)obj;
 		if ( t.type == this.type ) {
 			if ( this.type == Type.OPERATOR )
@@ -97,12 +96,12 @@ public class Token {
 		}
 		return false;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		return 0;
 	}
-	
+
 	public String toString() {
 		return this.type == Type.OPERAND ? "" + this.operand : this.operator;
 	}

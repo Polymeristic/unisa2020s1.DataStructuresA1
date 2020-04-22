@@ -9,7 +9,7 @@ import ds.students.Token;
  * 
  * @author simont
  * Jan, 2014
- * @param  The type of object stored in this Stack. 
+ * @param  The type of object stored in this Stack.
  */
 public abstract class Stack {
 
@@ -19,7 +19,7 @@ public abstract class Stack {
 	 * Returns, without removing, the object at the top of the Stack. 
 	 * @return the object at the top of the Stack. 
 	 * 
-	 * @throws EmptyStackException if the stack is empty. 
+	 * @throws EmptyStackException if the stack is empty.
 	 */
 	public abstract Token peek();
 	/**

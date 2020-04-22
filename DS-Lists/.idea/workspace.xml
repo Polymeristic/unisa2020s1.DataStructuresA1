@@ -2,47 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a63dfc-e63d-4f3e-89ee-aebaed6fdfd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/interfaces/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/interfaces/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/interfaces/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/interfaces/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/interfaces/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/interfaces/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/DSList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/DSList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/DSQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/DSQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/DSStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/DSStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/Token$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/Token$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/students/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/AssignmentMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/AssignmentMarker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/DSUnitTesting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/DSUnitTesting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/DSUnitTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/DSUnitTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ds/students/NodeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/students/NodeIterator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ds/tests/EvaluationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/EvaluationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ds/tests/InfixToPostfixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/InfixToPostfixTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/Marks.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/Marks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/QueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/StackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ds/tests/THelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ds/tests/THelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/interfaces/Queue-dwaps042.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/interfaces/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/interfaces/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/students/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/students/DSList-dwaps042.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/interfaces/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/interfaces/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ds/students/DSList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/DSList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/students/DSQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/DSQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/students/DSStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/DSStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ds/students/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/students/NodeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/NodeIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ds/students/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/Token.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ds/tests/EvaluationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/tests/EvaluationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ds/tests/InfixToPostfixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/tests/InfixToPostfixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Implementations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Implementations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Implementations/src/pack/NodeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/students/NodeIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="293" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,10 +52,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oliver\OneDrive - University of South Australia\Uni SA\2020 S1\COMP 2012 Data Structures\Assignments\Assignment 1\DS-Lists\src\ds\tests" />
+      <recent name="C:\Users\Oliver\OneDrive - University of South Australia\Uni SA\2020 S1\COMP 2012 Data Structures\Assignments\Assignment 1\DS-Lists\src\ds\interfaces" />
+      <recent name="C:\Users\Oliver\OneDrive - University of South Australia\Uni SA\2020 S1\COMP 2012 Data Structures\Assignments\Assignment 1\DS-Lists\src\ds" />
       <recent name="C:\Users\Oliver\OneDrive - University of South Australia\Uni SA\2020 S1\COMP 2012 Data Structures\Assignments\Assignment 1\DS-Lists\src\ds\students" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AssignmentMarker">
     <configuration name="AssignmentMarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.tests.AssignmentMarker" />
       <module name="2017-DS-Lists" />
@@ -91,9 +72,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InfixToPostfixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2017-DS-Lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tests" />
+      <option name="MAIN_CLASS_NAME" value="ds.tests.InfixToPostfixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2017-DS-Lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tests" />
+      <option name="MAIN_CLASS_NAME" value="ds.tests.ListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2017-DS-Lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tests" />
+      <option name="MAIN_CLASS_NAME" value="ds.tests.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2017-DS-Lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ds.tests" />
+      <option name="MAIN_CLASS_NAME" value="ds.tests.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AssignmentMarker" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.InfixToPostfixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +154,11 @@
       <updated>1584596598498</updated>
       <workItem from="1584596625731" duration="7977000" />
       <workItem from="1584767342587" duration="35000" />
-      <workItem from="1584771211198" duration="14799000" />
+      <workItem from="1584771211198" duration="14914000" />
+      <workItem from="1584788179173" duration="209000" />
+      <workItem from="1584790447094" duration="1632000" />
+      <workItem from="1584944852583" duration="42000" />
+      <workItem from="1587570131085" duration="658000" />
     </task>
     <servers />
   </component>
@@ -122,6 +171,10 @@
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584596718591" />
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584772342927" />
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584790559689">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584790559689" />
     <state x="1085" y="403" key="#com.intellij.ide.util.MemberChooser" timestamp="1584786978100">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -130,46 +183,64 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1123" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@0.0.2560.1400" timestamp="1584596711194" />
+    <state x="785" y="615" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587570567800">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="785" y="615" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570567800" />
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584787213545">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787213545" />
-    <state width="1712" height="319" key="GridCell.Tab.0.bottom" timestamp="1584787610303">
+    <state width="2517" height="298" key="GridCell.Tab.0.bottom" timestamp="1587570788766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1712" height="319" key="GridCell.Tab.0.bottom/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787610303" />
-    <state width="1712" height="319" key="GridCell.Tab.0.center" timestamp="1584787610303">
+    <state width="2517" height="298" key="GridCell.Tab.0.bottom/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570788766" />
+    <state width="1877" height="85" key="GridCell.Tab.0.bottom/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@-1920.393.1920.1080" timestamp="1584793422854" />
+    <state width="1711" height="189" key="GridCell.Tab.0.bottom/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584791247236" />
+    <state width="2517" height="298" key="GridCell.Tab.0.center" timestamp="1587570788766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1712" height="319" key="GridCell.Tab.0.center/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787610303" />
-    <state width="1712" height="319" key="GridCell.Tab.0.left" timestamp="1584787610303">
+    <state width="2517" height="298" key="GridCell.Tab.0.center/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570788766" />
+    <state width="1877" height="85" key="GridCell.Tab.0.center/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@-1920.393.1920.1080" timestamp="1584793422854" />
+    <state width="1711" height="189" key="GridCell.Tab.0.center/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584791247236" />
+    <state width="2517" height="298" key="GridCell.Tab.0.left" timestamp="1587570788766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1712" height="319" key="GridCell.Tab.0.left/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787610303" />
-    <state width="1712" height="319" key="GridCell.Tab.0.right" timestamp="1584787610303">
+    <state width="2517" height="298" key="GridCell.Tab.0.left/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570788766" />
+    <state width="1877" height="85" key="GridCell.Tab.0.left/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@-1920.393.1920.1080" timestamp="1584793422854" />
+    <state width="1711" height="189" key="GridCell.Tab.0.left/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584791247236" />
+    <state width="2517" height="298" key="GridCell.Tab.0.right" timestamp="1587570788766">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1712" height="319" key="GridCell.Tab.0.right/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787610303" />
-    <state width="1258" height="280" key="GridCell.Tab.1.bottom" timestamp="1584784695725">
+    <state width="2517" height="298" key="GridCell.Tab.0.right/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570788766" />
+    <state width="1877" height="85" key="GridCell.Tab.0.right/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@-1920.393.1920.1080" timestamp="1584793422854" />
+    <state width="1711" height="189" key="GridCell.Tab.0.right/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584791247236" />
+    <state width="1258" height="280" key="GridCell.Tab.1.bottom" timestamp="1584787718129">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="280" key="GridCell.Tab.1.bottom/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584784695725" />
-    <state width="1258" height="280" key="GridCell.Tab.1.center" timestamp="1584784695725">
+    <state width="1258" height="280" key="GridCell.Tab.1.bottom/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787718129" />
+    <state width="1258" height="280" key="GridCell.Tab.1.center" timestamp="1584787718128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="280" key="GridCell.Tab.1.center/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584784695725" />
-    <state width="1258" height="280" key="GridCell.Tab.1.left" timestamp="1584784695725">
+    <state width="1258" height="280" key="GridCell.Tab.1.center/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787718128" />
+    <state width="1258" height="280" key="GridCell.Tab.1.left" timestamp="1584787718128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="280" key="GridCell.Tab.1.left/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584784695725" />
-    <state width="1258" height="280" key="GridCell.Tab.1.right" timestamp="1584784695725">
+    <state width="1258" height="280" key="GridCell.Tab.1.left/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787718128" />
+    <state width="1258" height="280" key="GridCell.Tab.1.right" timestamp="1584787718128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1258" height="280" key="GridCell.Tab.1.right/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584784695725" />
+    <state width="1258" height="280" key="GridCell.Tab.1.right/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584787718128" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1584781045822">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584781045822" />
+    <state x="956" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1587570130838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1203" y="782" key="com.intellij.ide.util.TipDialog/-1920.393.1920.1040/0.0.2560.1400/2560.393.1920.1080@-1920.393.1920.1040" timestamp="1584944852783" />
+    <state x="956" y="524" key="com.intellij.ide.util.TipDialog/-1920.393.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1587570130838" />
+    <state x="956" y="524" key="com.intellij.ide.util.TipDialog/2560.393.1920.1040/0.0.2560.1400/-1920.393.1920.1080@0.0.2560.1400" timestamp="1584790446943" />
     <state x="2566" y="379" width="1886" height="1142" maximized="true" key="dock-window-1" timestamp="1584771747268">
       <screen x="2560" y="393" width="1920" height="1040" />
     </state>
@@ -191,12 +262,12 @@
           <line>73</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ds/tests/ListTest.java</url>
-          <line>312</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2017_DS_Lists$AssignmentMarker.ic" NAME="AssignmentMarker Coverage Results" MODIFIED="1587570708882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ds.tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
